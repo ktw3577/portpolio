@@ -38,10 +38,12 @@ function App() {
         </header>
         <article className="home" id="home">
           <div className="home_content">
-            <div className="home_text">웹개발자 김태원의 포트폴리오입니다.</div>
+            <div className="home_text">웹개발자 김태원의 포트폴리오입니다</div>
+            {/* 
             <a href="#skills" className="next_button">
               더 알아보기
             </a>
+            */}
           </div>
         </article>
         {/*
@@ -109,9 +111,7 @@ function App() {
               </div>
 
               <div className="tech_box" id="deployment">
-                <div className="tech_box_title">
-                  Deployment && communication
-                </div>
+                <div className="tech_box_title">Deployment & communication</div>
 
                 <div className="skill_image_long_container" id="aws">
                   <div className="skill_long_label">tried</div>
@@ -524,7 +524,7 @@ function App() {
                 <div className="icon_wrapper">
                   <a href="https://commonseed.tistory.com/">
                     <img
-                      src={require("./icons/contact_icons/tistory.png")}
+                      src={require("./icons/contact_icons/tistory2.png")}
                       alt=""
                     />
                   </a>

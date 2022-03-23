@@ -127,7 +127,7 @@ input[id="menu_check"]:checked + label span:nth-child(3) {
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
   background-image: url(/src/images/03_darkMode.png);
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -136,7 +136,7 @@ input[id="menu_check"]:checked + label span:nth-child(3) {
 }
 
 .home_text {
-  font-size: x-large;
+  font-size: 3rem;
   color: #fff;
 }
 
@@ -154,9 +154,6 @@ input[id="menu_check"]:checked + label span:nth-child(3) {
   cursor: pointer;
 }
 
-.aobut_me {
-  background-color: darkgrey;
-}
 .about_me_container {
   box-sizing: border-box;
   width: 100%;
@@ -506,7 +503,7 @@ input[id="menu_check"]:checked + label span:nth-child(3) {
 
 @media (max-width: 768px) {
   .contact_links {
-    padding-left: 20%;
+    padding-left: 10%;
   }
 }
 
@@ -551,6 +548,8 @@ input[id="menu_check"]:checked + label span:nth-child(3) {
 
 #styled-components {
   background-image: url("./icons/styledComponents.png");
+  background-size: 105%;
+  background-position: center;
 }
 
 #redux {
